@@ -375,7 +375,7 @@ but this will also keep them from being obnoxious
 .collapse-view-content td {
   padding: 0.5rem; }
   .collapse-view-content td img {
-    width: 50px; }
+    width: 100px; }
   .collapse-view-content td h4 {
     font-size: 16px !important;
     margin-bottom: 5px; }
