@@ -8,20 +8,21 @@ input.form-control:focus {
   outline: none;
   box-shadow: none; }
 
+.block-stacked {
+  background: #f5f5f5;
+  padding: 20px;
+  height: auto;
+  border-radius: 5px; }
+  .block-stacked button {
+    font-weight: bold;
+    width: 48%;
+    color: #9E4122; }
+  .block-stacked .btn-brown {
+    background: #9E4122;
+    color: #fff; }
+
 aside {
   width: 240px; }
-  aside .block-stacked {
-    background: #f5f5f5;
-    padding: 20px;
-    height: auto;
-    border-radius: 5px; }
-    aside .block-stacked button {
-      font-weight: bold;
-      width: 48%;
-      color: #9E4122; }
-    aside .block-stacked .btn-brown {
-      background: #9E4122;
-      color: #fff; }
   aside .btn-blocks button {
     font-size: 18px;
     font-weight: 600;
