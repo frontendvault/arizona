@@ -143,6 +143,8 @@ aside {
       padding-bottom: 15px;
       margin-top: -41px;
       color: #fff; }
+    .right-side .items-section .burger-banner img {
+      height: 170px; }
   .right-side .items-section .item {
     width: auto;
     box-shadow: 0px 0px 4px 2px #D8D8D8;
