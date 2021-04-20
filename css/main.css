@@ -2143,3 +2143,25 @@ but this will also keep them from being obnoxious
   #updateMethodModal .choose-restaurant .nav-item .active {
     border: 0;
     border-bottom: 1px solid #C72014; }
+
+.suggested-items .list-group .list-group-item {
+  padding: 5px 10px; }
+  .suggested-items .list-group .list-group-item h5 {
+    font-size: 14px !important;
+    font-weight: 600;
+    margin-bottom: 5px; }
+  .suggested-items .list-group .list-group-item p {
+    font-size: 14px !important; }
+  .suggested-items .list-group .list-group-item img {
+    width: 50px; }
+  .suggested-items .list-group .list-group-item .add-suggestion {
+    background: #9E4122;
+    font-size: 30px;
+    font-weight: 500;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; }
