@@ -2101,7 +2101,7 @@ but this will also keep them from being obnoxious
 #updateMethodModal h4 {
   font-size: 16px;
   font-weight: 600;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 10px; }
 
 #updateMethodModal .nav-pills .nav-item {
