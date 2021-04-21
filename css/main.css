@@ -2176,5 +2176,5 @@ but this will also keep them from being obnoxious
   margin-right: -30px; }
 
 .cart-scroll {
-  height: 500px;
+  max-height: 780px;
   overflow-y: scroll; }
