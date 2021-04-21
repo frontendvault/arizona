@@ -2152,6 +2152,8 @@ but this will also keep them from being obnoxious
       font-size: 14px !important;
       font-weight: 600;
       margin-bottom: 0 !important; }
+    .suggested-items .list-group .list-group-item .price {
+      font-size: 14px; }
     .suggested-items .list-group .list-group-item p {
       font-size: 14px !important;
       margin-bottom: 0; }
