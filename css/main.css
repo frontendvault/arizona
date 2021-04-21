@@ -2174,3 +2174,7 @@ but this will also keep them from being obnoxious
 .left-right-0 {
   margin-left: -30px;
   margin-right: -30px; }
+
+.cart-scroll {
+  height: 500px;
+  overflow-y: scroll; }
