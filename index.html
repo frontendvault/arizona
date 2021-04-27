@@ -3022,8 +3022,8 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content px-md-5">
+      <div class="modal-dialog">
+        <div class="modal-content px-md-4">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Your Order</h5>
             <button
@@ -3083,22 +3083,22 @@
                     <div class="row">
                       <div class="col-12"><h4>Choose a Location</h4></div>
                       <div class="col-12 pt-3">
-                        <p>
+                        <!-- <p>
                           <strong>Attention</strong> Restaurants are shown in
                           alphabetic order since the geolocation is deactivated
-                        </p>
+                        </p> -->
 
-                        <div class="selected-address shadow-sm border mb-2">
+                        <div class="selected-address mb-2">
                           <strong>Benny&Co - Ange-Gardien (Ville)</strong>
                           <p>109 quebec 235 Lorem ipsum dolor lorem</p>
                         </div>
-                        <div class="selected-address shadow-sm border mb-2">
+                        <div class="selected-address mb-2">
                           <strong
                             >Arizona Sandwich - Ange-Gardien (Ville)</strong
                           >
                           <p>109 quebec 235 Lorem ipsum dolor lorem</p>
                         </div>
-                        <div class="selected-address shadow-sm border">
+                        <div class="selected-address">
                           <strong
                             >Kentucky Friend Chicken - Ange-Gardien
                             (Ville)</strong
@@ -3112,13 +3112,19 @@
                               <h4>Choose a Time</h4>
                             </div>
                             <div class="col">
-                              <select id="inputState" class="form-control">
+                              <select
+                                id="inputState"
+                                class="form-control rounded-0"
+                              >
                                 <option selected>Today</option>
                                 <option>...</option>
                               </select>
                             </div>
                             <div class="col">
-                              <select id="inputState1" class="form-control">
+                              <select
+                                id="inputState1"
+                                class="form-control rounded-0"
+                              >
                                 <option selected>11:35 AM</option>
                                 <option>...</option>
                               </select>
@@ -3134,30 +3140,46 @@
                     role="tabpanel"
                     aria-labelledby="pills-profile-tab"
                   >
-                    ...
+                    <div class="row">
+                      <div class="col-12"><h4>Choose a Location</h4></div>
+                      <div class="col-12 pt-3">
+                        <p>
+                          <strong>Attention</strong> Restaurants are shown in
+                          alphabetic order since the geolocation is deactivated
+                        </p>
+
+                        <form>
+                          <div class="row mt-4 pb-5">
+                            <div class="col-12 mt-2">
+                              <h4>Choose a Time</h4>
+                            </div>
+                            <div class="col">
+                              <select
+                                id="inputState"
+                                class="form-control rounded-0"
+                              >
+                                <option selected>Today</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class="col">
+                              <select
+                                id="inputState1"
+                                class="form-control rounded-0"
+                              >
+                                <option selected>11:35 AM</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
                   </div>
-                  <!-- <div
-                    class="tab-pane fade"
-                    id="pills-contact"
-                    role="tabpanel"
-                    aria-labelledby="pills-contact-tab"
-                  >
-                    ...
-                  </div> -->
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div> -->
         </div>
       </div>
     </div>

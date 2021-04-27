@@ -2106,6 +2106,10 @@ but this will also keep them from being obnoxious
   margin-bottom: 10px;
   color: #C72014; }
 
+#updateMethodModal .modal-header::after {
+  content: "";
+  border-bottom: 2px solid #000; }
+
 #updateMethodModal .nav-pills .nav-item {
   font-weight: 900; }
   #updateMethodModal .nav-pills .nav-item .nav-link {
