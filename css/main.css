@@ -2147,12 +2147,11 @@ but this will also keep them from being obnoxious
   #updateMethodModal .selected-address-active .check-mark {
     height: 20px;
     width: 20px;
-    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #C72014;
-    position: abso lute;
+    position: absolute;
     right: 10px;
     top: 10px;
     border-radius: 50%; }
