@@ -3025,7 +3025,9 @@
       <div class="modal-dialog">
         <div class="modal-content px-md-4">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Your Order</h5>
+            <h5 class="modal-title font-weight-bold" id="exampleModalLabel">
+              Edit Your Order Settings
+            </h5>
             <button
               type="button"
               class="close"
@@ -3083,11 +3085,6 @@
                     <div class="row">
                       <div class="col-12"><h4>Choose a Location</h4></div>
                       <div class="col-12 pt-3">
-                        <!-- <p>
-                          <strong>Attention</strong> Restaurants are shown in
-                          alphabetic order since the geolocation is deactivated
-                        </p> -->
-
                         <div class="selected-address mb-2">
                           <strong>Benny&Co - Ange-Gardien (Ville)</strong>
                           <p>109 quebec 235 Lorem ipsum dolor lorem</p>
@@ -3146,11 +3143,13 @@
                     <div class="row">
                       <div class="col-12"><h4>Choose a Location</h4></div>
                       <div class="col-12 pt-3">
-                        <p>
-                          <strong>Attention</strong> Restaurants are shown in
-                          alphabetic order since the geolocation is deactivated
-                        </p>
-
+                        <div
+                          class="selected-address mb-2 selected-address-active"
+                        >
+                          <strong>Benny&Co - Ange-Gardien (Ville)</strong>
+                          <p>109 quebec 235 Lorem ipsum dolor lorem</p>
+                          <div class="check-mark"></div>
+                        </div>
                         <form>
                           <div class="row mt-4 pb-5">
                             <div class="col-12 mt-2">
@@ -3173,6 +3172,13 @@
                                 <option selected>11:35 AM</option>
                                 <option>...</option>
                               </select>
+                            </div>
+                            <div class="col-md-12 mt-3 mt-md-5">
+                              <button
+                                class="btn btn-block rounded-0 text-white"
+                              >
+                                OK
+                              </button>
                             </div>
                           </div>
                         </form>

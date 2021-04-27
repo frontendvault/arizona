@@ -2098,6 +2098,12 @@ but this will also keep them from being obnoxious
 #updateMethodModal p {
   font-size: 14px; }
 
+#updateMethodModal .close {
+  opacity: 1; }
+
+#updateMethodModal .btn-block {
+  background: #C72014; }
+
 #updateMethodModal h4 {
   font-size: 16px;
   font-weight: 600;
@@ -2105,10 +2111,6 @@ but this will also keep them from being obnoxious
   margin-top: 10px;
   margin-bottom: 10px;
   color: #C72014; }
-
-#updateMethodModal .modal-header::after {
-  content: "";
-  border-bottom: 2px solid #000; }
 
 #updateMethodModal .nav-pills .nav-item {
   font-weight: 900; }
