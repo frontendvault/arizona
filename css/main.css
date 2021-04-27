@@ -2112,6 +2112,16 @@ but this will also keep them from being obnoxious
   margin-bottom: 10px;
   color: #C72014; }
 
+#updateMethodModal .delivery-address .input-group {
+  height: 40px;
+  margin-bottom: 20px; }
+  #updateMethodModal .delivery-address .input-group .form-control {
+    height: 100%; }
+  #updateMethodModal .delivery-address .input-group .input-group-append .input-group-text {
+    height: 100%;
+    background: #C72014;
+    border: 1px solid #C72014; }
+
 #updateMethodModal .nav-pills .nav-item {
   font-weight: 900; }
   #updateMethodModal .nav-pills .nav-item .nav-link {
