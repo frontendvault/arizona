@@ -2137,10 +2137,30 @@ but this will also keep them from being obnoxious
     margin-bottom: 10px; }
   #updateMethodModal .selected-address p {
     font-size: 15px; }
+  #updateMethodModal .selected-address .check-mark {
+    display: none; }
 
 #updateMethodModal .selected-address-active {
   border: 1px solid #C72014;
-  box-shadow: 0 0 10px #A0A0A0; }
+  box-shadow: 0 0 10px #A0A0A0;
+  position: relative; }
+  #updateMethodModal .selected-address-active .check-mark {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background: #C72014;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%; }
+    #updateMethodModal .selected-address-active .check-mark:after {
+      content: "";
+      width: 5px;
+      display: block;
+      height: 10px;
+      border: solid #fff;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg); }
 
 #updateMethodModal .choose-restaurant .nav-item {
   margin-right: 0; }
