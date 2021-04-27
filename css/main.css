@@ -2148,8 +2148,11 @@ but this will also keep them from being obnoxious
     height: 20px;
     width: 20px;
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #C72014;
-    position: absolute;
+    position: abso lute;
     right: 10px;
     top: 10px;
     border-radius: 50%; }
