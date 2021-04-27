@@ -3023,7 +3023,7 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-lg">
-        <div class="modal-content px-md-5">
+        <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Your Order</h5>
             <button
@@ -3042,26 +3042,25 @@
               <div class="col">
                 <h4>Choose your order type</h4>
 
-                <ul
-                  class="nav nav-pills mb-3 mb-md-5"
-                  id="pills-tab"
-                  role="tablist"
-                >
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <a
-                      class="nav-link text-center px-md-4 active"
+                      class="nav-link text-center active"
                       id="pills-home-tab"
                       data-toggle="pill"
                       href="#pills-home"
                       role="tab"
                       aria-controls="pills-home"
                       aria-selected="true"
-                      >Delivery
-                    </a>
+                    >
+                      <img src="images/shopping-bag.png" alt="" class="mb-1" />
+                      <br />
+                      Takeout</a
+                    >
                   </li>
                   <li class="nav-item" role="presentation">
                     <a
-                      class="nav-link text-center px-md-4"
+                      class="nav-link text-center"
                       id="pills-profile-tab"
                       data-toggle="pill"
                       href="#pills-profile"
@@ -3069,9 +3068,23 @@
                       aria-controls="pills-profile"
                       aria-selected="false"
                     >
-                      Takeout
-                    </a>
+                      <img src="images/car-delivery.png" alt="" class="mb-2" />
+                      <br />
+                      Delivery</a
+                    >
                   </li>
+                  <!-- <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-contact-tab"
+                      data-toggle="pill"
+                      href="#pills-contact"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                      >Gift Cards</a
+                    >
+                  </li> -->
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
                   <div
@@ -3082,23 +3095,23 @@
                   >
                     <div class="row">
                       <div class="col-12"><h4>Choose a Location</h4></div>
-                      <div class="col-12 pt-3">
+                      <div class="col-12 bg-light pt-3">
                         <p>
                           <strong>Attention</strong> Restaurants are shown in
                           alphabetic order since the geolocation is deactivated
                         </p>
 
-                        <div class="selected-address shadow-sm border mb-2">
+                        <div class="selected-address mb-2">
                           <strong>Benny&Co - Ange-Gardien (Ville)</strong>
                           <p>109 quebec 235 Lorem ipsum dolor lorem</p>
                         </div>
-                        <div class="selected-address shadow-sm border mb-2">
+                        <div class="selected-address mb-2">
                           <strong
                             >Arizona Sandwich - Ange-Gardien (Ville)</strong
                           >
                           <p>109 quebec 235 Lorem ipsum dolor lorem</p>
                         </div>
-                        <div class="selected-address shadow-sm border">
+                        <div class="selected-address">
                           <strong
                             >Kentucky Friend Chicken - Ange-Gardien
                             (Ville)</strong
@@ -3107,7 +3120,7 @@
                         </div>
 
                         <form>
-                          <div class="row mt-4 pb-5">
+                          <div class="row mt-4 pb-5 bg-white">
                             <div class="col-12 mt-2">
                               <h4>Choose a Time</h4>
                             </div>
