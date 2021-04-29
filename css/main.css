@@ -1549,6 +1549,12 @@ but this will also keep them from being obnoxious
   aside {
     width: 210px;
     margin-top: 30px; }
+  .items-section {
+    padding-left: 40px; }
+  .stack-view, .burger-banner, .block-stacked, .cart-toggle {
+    display: none !important; }
+  .collapse-view {
+    display: flex !important; }
   .checkout-pages .guest-details form .social-login .btn {
     min-width: 300px;
     margin-bottom: 20px; }
