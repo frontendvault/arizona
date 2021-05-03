@@ -2226,3 +2226,6 @@ but this will also keep them from being obnoxious
 .cart-scroll {
   max-height: 780px;
   overflow-y: scroll; }
+
+.light-bg-location {
+  background: #f5f5f5; }
