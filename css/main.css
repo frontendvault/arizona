@@ -3037,6 +3037,9 @@ but this will also keep them from being obnoxious
 .nav-tabs .nav-link:hover {
   border: 1px solid transparent;
 }
+.weekly-report .nav-tabs {
+  border-bottom: 1px solid #9e4122;
+}
 .edit-add-btns {
   display: flex;
   align-items: center;
@@ -3059,5 +3062,6 @@ but this will also keep them from being obnoxious
 }
 .order-for-section h4 {
   font-size: 18px;
-  font-weight: 600; border-bottom: 1px solid #ccc;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
 }
