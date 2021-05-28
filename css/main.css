@@ -3061,7 +3061,23 @@ but this will also keep them from being obnoxious
   background: #9e4122;
 }
 .order-for-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.order-history-cart .day-count {
+  font-weight: 600 !important;
+  font-size: 16px;
+}
+.order-history-cart .cart-inner h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 600;
-  border-bottom: 1px solid #ccc;
+}
+.order-history-cart .cart-inner .two-col {
+  padding: 8px 0;
+}
+.order-history-cart .cart-inner .two-col .add-ons-container h5 {
+  margin-bottom: 8px;
 }
