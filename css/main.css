@@ -3084,3 +3084,15 @@ but this will also keep them from being obnoxious
 .items-category-logo {
   width: 250px;
 }
+
+.grid-list-container .accordion .card-header:after {
+  content: "\002D";
+
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  font-size: 30px;
+}
+.grid-list-container .accordion .card-header[aria-expanded="true"]:after {
+  content: "\002B";
+}
