@@ -3081,3 +3081,6 @@ but this will also keep them from being obnoxious
 .order-history-cart .cart-inner .two-col .add-ons-container h5 {
   margin-bottom: 8px;
 }
+.items-category-logo {
+  width: 250px;
+}
