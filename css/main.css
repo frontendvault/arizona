@@ -3085,14 +3085,25 @@ but this will also keep them from being obnoxious
   width: 250px;
 }
 
-.grid-list-container .accordion .card-header:after {
-  content: "\002D";
+.grid-list-container .accordion .card-header h3:before {
+  content: "\002B";
 
   position: absolute;
   right: 20px;
   top: 2px;
   font-size: 30px;
 }
-.grid-list-container .accordion .card-header[aria-expanded="true"]:after {
-  content: "\002B";
+.grid-list-container .accordion .card-header h3:after {
+  display: none;
+}
+.grid-list-container .accordion .card-header .collapsed:after {
+  content: "\002D";
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  font-size: 30px;
+  display: block;
+}
+.grid-list-container .accordion .card-header .collapsed:before {
+  display: none;
 }
