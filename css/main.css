@@ -3107,7 +3107,7 @@ but this will also keep them from being obnoxious
 .grid-list-container .accordion .card-header .collapsed:before {
   display: none;
 } */
-.grid-list-container .accordion .card-header h3:before {
+/* .grid-list-container .accordion .card-header h3:before {
   content: "\002B";
   position: absolute;
   right: 20px;
@@ -3120,4 +3120,4 @@ but this will also keep them from being obnoxious
   right: 20px;
   top: 2px;
   font-size: 30px;
-}
+} */
